@@ -15,11 +15,13 @@ This code implements the computational pipeline for e-HFCM, in particular:
 
 # Requirements
 
-The code uses Python, in particular, the [numpy](https://http://www.numpy.org/)
-stack, [mahotas](https://mahotas.rtfd.io/) for image processing,
-[imread](https://http://imread.rtfd.io/) for image loading, and
-[jug](https://jug.readthedocs.io/) for parallel processing and pipeline
-management.
+- Python
+- [numpy](https://http://www.numpy.org/)
+- [scikit-learn](http://scikit-learn.org/) for machine learning
+- [mahotas](https://mahotas.rtfd.io/) for image processing
+- [imread](https://http://imread.rtfd.io/) for image loading
+- [jug](https://jug.readthedocs.io/) for parallel processing and pipeline
+  management.
 
 The computations in the manuscript used Python 2.7, but the code is compatible
 with Python 3.
