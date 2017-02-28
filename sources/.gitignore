@@ -1,0 +1,7 @@
+*.pyc
+*.jugdata
+/jugdirs
+/outputs/
+/figures/
+errors.txt
+.ipynb_checkpoints/
