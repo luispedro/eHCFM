@@ -49,6 +49,19 @@ labeled_size = TaskGenerator(labeled_size)
 build_mosaic = TaskGenerator(build_mosaic)
 
 
+@Task
+def make_outputdirs():
+    mkdir_p('outputs/')
+    for d in ['animations/',
+                'bead_stats/',
+                'predictions.all/',
+                'composites/',
+                'labels/',
+                'metadata/',
+                'mosaics/',
+                'saturated/']:
+        mkdir_p('outputs/' + d)
+
 @TaskGenerator
 def save_saturation(saturated):
     import numpy as np

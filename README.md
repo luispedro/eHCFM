@@ -22,6 +22,7 @@ This code implements the computational pipeline for e-HFCM, in particular:
 - [imread](https://http://imread.rtfd.io/) for image loading
 - [jug](https://jug.readthedocs.io/) for parallel processing and pipeline
   management.
+- [imageio](https://https://imageio.github.io) for writing animated GIFs
 
 The computations in the manuscript used Python 2.7, but the code is compatible
 with Python 3.

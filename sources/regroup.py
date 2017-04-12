@@ -3,7 +3,7 @@ from os import path
 import datetime
 import shutil
 
-OUTPUT_DIRECTORY = "/g/taramicro/outputs/OUTPUT/"
+OUTPUT_DIRECTORY = "outputs/OUTPUT/"
 START_DATE = datetime.datetime(2014,01,01).toordinal()
 def processing_code():
     from time import strftime
