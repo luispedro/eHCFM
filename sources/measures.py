@@ -210,13 +210,13 @@ for c in ('dna','auto', 'lysine', 'DiO6'):
 
 
 for c in ('dna','auto', 'lysine', 'DiO6', 'lightbest'):
-    names.extend(['{}.central_zernike{}'.format(c,n) for n in xrange(25)])
+    names.extend(['{}.central_zernike{}'.format(c,n) for n in range(25)])
 
 for c in ('dna','auto', 'lysine', 'DiO6', 'lightmax', 'lightbest'):
-    names.extend(['{}.haralick{}'.format(c, n) for n in xrange(13)])
+    names.extend(['{}.haralick{}'.format(c, n) for n in range(13)])
 
 for c in ('dna','auto', 'lysine', 'DiO6', 'lightbest'):
-    names.extend(['{}.lbp_8_8_{}'.format(c, n) for n in xrange(36)])
+    names.extend(['{}.lbp_8_8_{}'.format(c, n) for n in range(36)])
 
 names.extend(
         ['dna.auto.corr'

@@ -55,6 +55,6 @@ if __name__ == '__main__':
             n_Nones += (f1 is None)
             n_Nones += (f2 is None)
             if f1 is None:
-                print 1, line.strip()
+                print(1, line.strip())
             if f2 is None:
-                print 2, line.strip()
+                print(2, line.strip())

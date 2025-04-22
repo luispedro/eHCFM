@@ -4,7 +4,7 @@ import datetime
 import shutil
 
 OUTPUT_DIRECTORY = "outputs/OUTPUT/"
-START_DATE = datetime.datetime(2014,01,01).toordinal()
+START_DATE = datetime.datetime(2014, 1, 1).toordinal()
 def processing_code():
     from time import strftime
     now = datetime.datetime.now()
